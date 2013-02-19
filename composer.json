@@ -1,0 +1,23 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.zendframework.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "pimple/pimple": "1.*",
+        "symfony/console": "2.*",
+        "symfony/http-foundation": "2.*",
+        "zendframework/zend-db": "2.*",
+        "zendframework/zend-eventmanager": "2.*",
+        "zendframework/zend-cache": "2.*",
+        "twig/twig": "1.12.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Karadaras": "src/"
+        }
+    }
+}
